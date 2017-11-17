@@ -20,6 +20,7 @@ public class CheckDetail {
         Delivery man1 = new Delivery(1001, "Lim Zhi Hui", 'Y', "", "1.00-2.00");
         Delivery man2 = new Delivery(1002, "Aw Khaw Wai", 'N', "Deliver burger", "11.00-12.00");
         Delivery man3 = new Delivery(1003, "Yong Kai Xiong", 'N', "Deliver noodles", "2.30-3.30");
+        Delivery man4 = new Delivery(1004, "Chua Wei Han", 'N', "Deliver fried rice", "2.00 - 3.00");
 
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Key in the staff ID:");
@@ -31,6 +32,8 @@ public class CheckDetail {
             System.out.println(man2.toString());
         }else if(staff == 1003){
             System.out.println(man3.toString());
+        }else if(staff == 1004){
+            System.out.println(man4.toString());
         }
 
     }
